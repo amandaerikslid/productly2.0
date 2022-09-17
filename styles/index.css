@@ -8,7 +8,6 @@ body {
 }
 
 nav {
-    border: 5px solid black;
     width: 100%;
     display: flex;
     max-width: 1100px;
@@ -76,15 +75,13 @@ ul {
 }
 
 .head-container {
-    border: 5px solid black;
     width: 100%;
     display: flex;
     justify-content: flex-start;
-
+    margin-top: 20px;
 }
 
 .head-info {
-    border: 5px solid black;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -143,7 +140,6 @@ ul {
 }
 
 .scnd-container {
-    border: 5px solid black;
     width: 100%;
     min-height: 550px;
     display: flex;
@@ -151,7 +147,7 @@ ul {
     align-items: center;
 }
 
-.title {
+.superpower-title {
     font-family: 'Poppins', sans-serif;
     max-width: 500px;
     font-style: normal;
@@ -165,7 +161,6 @@ ul {
 .icons {
     max-width: 1095px;
     display: flex;
-    border: 5px solid black;
 }
 
 .icon-title {
@@ -184,7 +179,6 @@ ul {
     font-size: 16px;
     line-height: 26px;
     color: #544837;
-    border: 5px solid black;
     max-width: 450px;
 }
 
@@ -201,4 +195,58 @@ ul {
     height: 53px;
     width: 175px;
     transform: translateY(20px);
+}
+
+.design-container {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.design-prof {
+    max-width: 500px;
+}
+
+.small-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+    transform: translateY(30px);
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+    margin-right: 20%;
+}
+
+.mini-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E; 
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.image-man {
+    align-self: center;
+    transform: scale(1,1);
 }
