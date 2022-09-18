@@ -282,3 +282,12 @@ p {
 .check-text {
     transform: translate(15px, -10px);
 }
+
+.marketers-container {
+    display: flex;
+}
+
+.guy {
+    margin-top: 40px;
+    margin-left: 40px;
+}
