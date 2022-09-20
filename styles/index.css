@@ -234,7 +234,7 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
-    color: #2F281E; 
+    color: #2F281E;
 }
 
 p {
@@ -248,7 +248,7 @@ p {
 
 .image-man {
     align-self: center;
-    transform: scale(1,1);
+    transform: scale(1, 1);
 }
 
 .manager-container {
@@ -290,4 +290,40 @@ p {
 .guy {
     margin-top: 40px;
     margin-left: 40px;
+}
+
+.footer {
+    border: 5px solid black;
+    margin-top: 5%;
+    width: 1100px;
+    min-height: 300px;
+    display: flex;
+}
+
+.foot-logo {
+    align-self: flex-start;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    justify-content: flex-end;
+    align-items: center;
+    border: 5px solid black;
+}
+
+.foot-one, .foot-two, .foot-three {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-one, .foot-two {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
 }
